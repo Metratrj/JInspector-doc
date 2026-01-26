@@ -1,5 +1,3 @@
-Documentation ca 10 Seiten.
-
-
+[[Erste Schritte - Dokumentation]]
 [[Java Projekt]]
 [[Ist-Analyse]]
