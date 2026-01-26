@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Soll-Konzept.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Soll-Konzept"
+              "title": "Welcome"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Soll-Konzept.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Soll-Konzept"
+              "title": "Backlinks for Welcome"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Soll-Konzept.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Soll-Konzept"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Soll-Konzept.md",
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Soll-Konzept"
+              "title": "Outline of Welcome"
             }
           },
           {
@@ -195,10 +195,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "047445ceb883992f",
+  "active": "ee82486e2a5e2de2",
   "lastOpenFiles": [
-    "Erste Schritte - Dokumentation.md",
     "Soll-Konzept.md",
+    "Erste Schritte - Dokumentation.md",
     "Ist-Analyse.md",
     "Opcode.md",
     "Opcodes.md",
