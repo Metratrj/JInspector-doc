@@ -179,11 +179,10 @@ public class Programm {
 ```
 
 ## 2.2.1 Der Decompiler-Trugschluss
-Moderne IDEs wie IntelliJ IDEA (via Fernflower) oder Eclipse besitzen Features zum "decompilieren", diese transformieren den Bytecode jedoch zurück in Java-Quellcode. Dabei glätten diese den Code, um ihn lesbar zu machen. Hierbei gehen Informationen über die tatsächliche Bytecode-Struktur (z.B. spezifische Optimierungen des Compilers oder exakte Opcode-Abfolgen) verloren. Durch diese abstrahierung des zugrundeliegenden Opcodes wird eine tiefe Analyse der JVM-Instruktionen verhindert.
+Moderne IDEs wie IntelliJ IDEA (via Fernflower) oder Eclipse besitzen Features zum "decompilieren", diese transformieren den Bytecode jedoch zurück in Java-Quellcode. Dabei glätten diese den Code, um ihn lesbar zu machen. Hierbei gehen Informationen über die tatsächliche Bytecode-Struktur (z.B. spezifische Optimierungen des Compilers oder exakte [[Opcode]]-Abfolgen) verloren. Durch diese abstrahierung des zugrundeliegenden [[Opcodes]] wird eine tiefe Analyse der JVM-Instruktionen verhindert.
 
 ## 2.2.2 Schwachstellen des aktuellen Prozesses
 - Unübersichtlichkeit: Die textbasierte Ausgabe von `javap` ist bei großen Klassen schwer zu erfassen
 - Fehlende Automatisierung: Das Scannen ganzer Verzeichnisse oder JAR-Archive ist standartmäßig nicht vorgesehen.
 - Mangelde Visualisierung: Es existieren keine grafischen Aufbereitung von Klassenhierachien oder Call-Trees
 - Warungsstau existierender Tools: Viele Open-Source-Projekte (z.B. JD, Procyon) werden nicht mehr aktiv gepflegt oder unterstützen aktuelle Java-Versionen (wie JDK 25) nur unvollständig.
--

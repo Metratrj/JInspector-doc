@@ -29,7 +29,7 @@ JByteInspector
    
 2. Projektbeschreibung
    Ausgangslage: Nach einer Kompilierung von Java-Quellcode liegt dieser als Bytecode in .class-Dateien vor. Für Entwickler ist es oft schwer nachzuvollziehen, wie der Compiler Optimierungen vornimmt oder welche Abhängigkeiten auf Bytecode-Ebene tatsächlich bestehen.
-   Zielsetzung: Ziel des Projekts ist die Erstellung einer Java-Anwendung, die .class-Dateien einliest, deren Struktur analysiert und die enthaltenen Informationen (z.B. Methoden, Opcode-Metriken, Sichtbarkeiten) übersichtlich aufzuarbeiten. Das Tool soll helfen, die Komplexität von kompilierten Klassen zu verstehen.
+   Zielsetzung: Ziel des Projekts ist die Erstellung einer Java-Anwendung, die .class-Dateien einliest, deren Struktur analysiert und die enthaltenen Informationen (z.B. Methoden, [[Opcode]]-Metriken, Sichtbarkeiten) übersichtlich aufzuarbeiten. Das Tool soll helfen, die Komplexität von kompilierten Klassen zu verstehen.
    
 3. Zeitplanung
 
