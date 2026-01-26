@@ -1,19 +1,3 @@
-### Aktueller Prozess
-Bisher mussten Entwickler jede `.class` Datei einzeln über das Terminal mit `javap` öffnen. Die Ausgabe ist rein text basiert, lang und unübersichtlich.
-Statistiken müssen per Hand erstellt werden.
-Es gibt die Möglichkeit über IntelliJ oder Eclipse zu decompilieren, aber ohne erweiterte Analyse oder s.g. Code-Intelligence
-
-### Aktuelle Schwachpunkte
-- Keine grafische Aufarbeitung der Daten.
-- Kein automatisches Scannen von ganzen Verzeichnissen oder JAR-Files
-- Hoher Zeitaufwand bei der Suche nach spezifischen Metriken.
-- Kein call tree
-- Die meisten Tools sind outdated außer Fernflower und ASM (allerdings eine Library)
-
-In der aktuell Lage werden Java-Anwendungen nach der Kompilierung oft als 'Black Box' betrachtet. Zur Analyse des generierten Bytecodes steht standardmäßig `javap` zur Verfügung. Dies liefert zwar detaillierte Einblicke, ist jedoch für eine schnelle, automatisierte Analyse von größeren Projekten oder zur Gewinnung statistischer Metriken ungeeignet, da die Ausgabe rein Text basiert ist.
-Zur alternative haben moderne Java IDEs `.class` Dateien auch zu decompilen. Hier gibt es unterstützung von Code-Intelligence, man hat aber nur zugriff auf den fertig decompileten Code und hat weniger/garnicht die möglichkeit Bytecode zu analysieren.
-
-
 # 2.1 Ist-Analyse & Aktueller Prozess
 ### 2.1.1 Tools
 Disassembler (Standart): 

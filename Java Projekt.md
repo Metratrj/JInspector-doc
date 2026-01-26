@@ -71,7 +71,7 @@ Ziel des Projekts ist die Entwicklung der Java-Anwendung **JByteInspector**. Die
 
 | **Phase**              | **Aufgabe**                                     | **Stunden** | **Summe** |
 | ---------------------- | ----------------------------------------------- | ----------- | --------- |
-| **1. Analyse**         | Ist-Analyse, Problemstellung & Lastenheft       | 3h          | **8h**    |
+| **1. Analyse**         | Ist-Analyse, Problemstellung                    | 3h          | **8h**    |
 |                        | Technologie-Recherche & Auswahl                 | 5h          |           |
 | **2. Entwurf**         | Architekturdesign & Schnittstellen              | 6h          | **14h**   |
 |                        | Klassendiagramme & Design der Programmlogik     | 8h          |           |
