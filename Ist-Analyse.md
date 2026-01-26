@@ -1,18 +1,3 @@
-Referenz-Tools: 
-- javap
-- IntelliJ/Eclipse
-- Diverse OOS Projekte welche nicht mehr maintained werden
-- CFR https://www.benf.org/other/cfr/ Last release dec 21
-- JD https://java-decompiler.github.io/ Last release dec 19
-- Procyon https://github.com/mstrobel/procyon Last release feb 22
-- Fernflower now integrated into IntelliJ https://github.com/JetBrains/fernflower
-- ASM https://asm.ow2.io/ Library for bytecode manipulation and analysis framework
-
-### Aktuelle Umgebung
-- IntelliJ 2025
-- CachyOS
-- OpenJDK 25
-
 ### Aktueller Prozess
 Bisher mussten Entwickler jede `.class` Datei einzeln über das Terminal mit `javap` öffnen. Die Ausgabe ist rein text basiert, lang und unübersichtlich.
 Statistiken müssen per Hand erstellt werden.
@@ -24,11 +9,35 @@ Es gibt die Möglichkeit über IntelliJ oder Eclipse zu decompilieren, aber ohne
 - Hoher Zeitaufwand bei der Suche nach spezifischen Metriken.
 - Kein call tree
 - Die meisten Tools sind outdated außer Fernflower und ASM (allerdings eine Library)
-- 
-
 
 In der aktuell Lage werden Java-Anwendungen nach der Kompilierung oft als 'Black Box' betrachtet. Zur Analyse des generierten Bytecodes steht standardmäßig `javap` zur Verfügung. Dies liefert zwar detaillierte Einblicke, ist jedoch für eine schnelle, automatisierte Analyse von größeren Projekten oder zur Gewinnung statistischer Metriken ungeeignet, da die Ausgabe rein Text basiert ist.
 Zur alternative haben moderne Java IDEs `.class` Dateien auch zu decompilen. Hier gibt es unterstützung von Code-Intelligence, man hat aber nur zugriff auf den fertig decompileten Code und hat weniger/garnicht die möglichkeit Bytecode zu analysieren.
+
+
+# 2.1 Ist-Analyse & Aktueller Prozess
+### 2.1.1 Tools
+Disassembler (Standart): 
+- `javap` (Teil des JDKs)
+Decompiler (Source-Fokus | Diese Tools zielen darauf ab, Java-Code wiederherzustellen, analysieren aber nicht den Bytecode an sich.) : 
+- CFR https://www.benf.org/other/cfr/ Last release dec 21
+- Procyon https://github.com/mstrobel/procyon Last release feb 22
+- JD https://java-decompiler.github.io/ Last release dec 19
+- Fernflower now integrated into IntelliJ https://github.com/JetBrains/fernflower
+Frameworks (Dies sind keine vollwertige Analyse-Tools sondern eine Library, die eine Entwicklung vereinfacht bzw. beschleunigt):
+- ASM https://asm.ow2.io/ Library for bytecode manipulation and analysis framework
+## 2.1.2 Aktuelle Umgebung
+- IntelliJ IDEA 2025.3
+- CachyOS
+- OpenJDK 25
+
+## 2.1.3 Aktuelle Lage
+In der aktuellen Lage werden Java-Anwendungen nach der Kompilierung oft als 'Black Box' betrachtet. Zur Untersuchung des generierten Bytecodes wird steht das JDK interne Tool `javap` zur Verfügung. Dies liefert zwar detaillierte Einblicke, ist jedoch für eine schnelle, automatisierte Analyse von größeren Projekten oder zu Gewinnung von statistischen Metriken ungeeignet, da die Ausgabe rein Textbasiert ist.
+
+## 2.1.4 Aktueller Workflow
+1. Manuelles Öffnen des Terminals im Zielverzeichnis.
+2. Ausführen von `javap -c [Klasse]` für jede einzelne Datei.
+3. Manuelle Sichtung langer Textausgaben (siehe Beispiel), um die Logik zu verstehen.
+4. Händische Extraktion von Metriken (z.B. Anzahl der Methodenaufrufe)
 
 Example Output from `javap`
 ```
@@ -183,6 +192,14 @@ public class Programm {
         76: invokevirtual #36                 // Method java/io/PrintStream.println:(Z)V
         79: return
 }
-
 ```
 
+## 2.2.1 Der Decompiler-Trugschluss
+Moderne IDEs wie IntelliJ IDEA (via Fernflower) oder Eclipse besitzen Features zum "decompilieren", diese transformieren den Bytecode jedoch zurück in Java-Quellcode. Dabei glätten diese den Code, um ihn lesbar zu machen. Hierbei gehen Informationen über die tatsächliche Bytecode-Struktur (z.B. spezifische Optimierungen des Compilers oder exakte Opcode-Abfolgen) verloren. Durch diese abstrahierung des zugrundeliegenden Opcodes wird eine tiefe Analyse der JVM-Instruktionen verhindert.
+
+## 2.2.2 Schwachstellen des aktuellen Prozesses
+- Unübersichtlichkeit: Die textbasierte Ausgabe von `javap` ist bei großen Klassen schwer zu erfassen
+- Fehlende Automatisierung: Das Scannen ganzer Verzeichnisse oder JAR-Archive ist standartmäßig nicht vorgesehen.
+- Mangelde Visualisierung: Es existieren keine grafischen Aufbereitung von Klassenhierachien oder Call-Trees
+- Warungsstau existierender Tools: Viele Open-Source-Projekte (z.B. JD, Procyon) werden nicht mehr aktiv gepflegt oder unterstützen aktuelle Java-Versionen (wie JDK 25) nur unvollständig.
+-
