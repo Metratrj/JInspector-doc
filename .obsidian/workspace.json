@@ -11,14 +11,12 @@
             "id": "ee82486e2a5e2de2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
+                "file": "mockups/class_hierarchy_explorer/screen.png"
               },
-              "icon": "lucide-file",
-              "title": "Welcome"
+              "icon": "lucide-image",
+              "title": "screen"
             }
           },
           {
@@ -49,8 +47,7 @@
               "title": "Ist-Analyse"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Soll-Konzept.md",
+                "file": "mockups/class_hierarchy_explorer/screen.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Soll-Konzept"
+              "title": "Outline of screen"
             }
           },
           {
@@ -224,10 +221,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "376dd5b5f3cd6f7c",
+  "active": "ee82486e2a5e2de2",
   "lastOpenFiles": [
-    "Welcome.md",
+    "mockups/call_tree_&_bytecode_inspector/screen.png",
+    "mockups/bytecode_analysis_dashboard/screen.png",
+    "mockups/class_hierarchy_explorer/screen.png",
+    "mockups/Mockups.canvas",
     "diagrams/Use Cases & User Stories.md",
+    "mockups/class_hierarchy_explorer/code.html",
+    "mockups/call_tree_&_bytecode_inspector/code.html",
+    "mockups/bytecode_analysis_dashboard/code.html",
+    "mockups/class_hierarchy_explorer",
+    "mockups/call_tree_&_bytecode_inspector",
+    "mockups/bytecode_analysis_dashboard",
+    "Welcome.md",
+    "mockups",
     "daylies/2026-01-27.md",
     "diagrams",
     "Soll-Konzept.md",
