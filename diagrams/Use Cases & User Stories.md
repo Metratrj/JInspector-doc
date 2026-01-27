@@ -59,7 +59,7 @@ UC4 ..> UC1 : <<include>>
 **Story:**
 	Als **Entwickler** möchte ich sehen, welche externen Methoden von meiner Klasse aufgerufen werden (Call-Tree), damit ich verstehe, wie stark die Klasse mit anderen Komponenten des Systems gekoppelt ist.
 **Akzeptanzkriterien:**
-	- Alle INVOKEVIRTUAL-, INVOKESTATIC-, INVOKEINTERFACE- und INVOKESPECIAL- Befehle werden identifiziert.
+	- Alle `INVOKEVIRTUAL`-, `INVOKESTATIC`-, `INVOKEINTERFACE`- und `INVOKESPECIAL`- Befehle werden identifiziert.
 	- Das System extrahiert Ziel-Klasse und Ziel-Methode jedes Aufrufs.
 	- Die Liste der Abhängigkeiten wird ohne Duplikate ausgegeben (eindeutige Call-Graph)
 	- Die Ausgabe unterscheidet zwischen Aufrufen innerhalb der eigenen Klasse und Aufrufen externen Bibliotheken (z.B. `java.lang.*`)
