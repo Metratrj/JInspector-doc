@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daylies/2026-01-28.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-28"
+              "title": "Welcome"
             }
           },
           {
@@ -237,23 +237,23 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "047445ceb883992f",
+  "active": "ee82486e2a5e2de2",
   "lastOpenFiles": [
-    "Soll-Konzept.md",
     "Java Projekt.md",
-    "Ist-Analyse.md",
-    "daylies/2026-01-28.md",
     "Welcome.md",
-    "daylies/2026-01-27.md",
-    "Architektur.md",
-    "Opcodes.md",
-    "Kanban.md",
     "Erste Schritte - Dokumentation.md",
+    "Architektur.md",
     "mockups/Mockups.canvas",
+    "mockups/class_hierarchy_explorer/screen.png",
     "diagrams/Use Cases & User Stories.md",
     "daylies/2026-01-26.md",
+    "daylies/2026-01-27.md",
+    "daylies/2026-01-28.md",
+    "Soll-Konzept.md",
+    "Ist-Analyse.md",
+    "Opcodes.md",
+    "Kanban.md",
     "Usecase.md",
-    "mockups/class_hierarchy_explorer/screen.png",
     "mockups/call_tree_&_bytecode_inspector/screen.png",
     "mockups/bytecode_analysis_dashboard/screen.png",
     "mockups/class_hierarchy_explorer/code.html",
