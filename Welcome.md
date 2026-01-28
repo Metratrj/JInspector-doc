@@ -1,11 +1,11 @@
-## JByteInspector
+# Willkommen zu JByteInspector
 
+Dies ist die Dokumentations-Vault für das Projekt **JByteInspector**.
 
-[[Erste Schritte - Dokumentation]]
-[[Java Projekt]]
-[[Ist-Analyse]]
-[[Soll-Konzept]]
+📍 **Startpunkt & Projektantrag:** [[Java Projekt]]
 
-[[Use Cases & User Stories]]
-
-[[Kanban]]
+---
+**Schnellzugriff:**
+- 📋 [[Kanban]]
+- 📖 [[diagrams/Use Cases & User Stories|Use Cases & User Stories]]
+- 🎯 [[Soll-Konzept]]
