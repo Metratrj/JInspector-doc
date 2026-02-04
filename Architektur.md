@@ -85,3 +85,4 @@ Da die Struktur von Java-Bytecode komplex und hierarchisch ist, eignet sich das 
 
 ### Data Transfer Object (DTO)
 Das Domain Model dient als DTO, um die Analysedaten entkoppelt von der ASM-Logik an die UI weiterzureichen. Das stellt sicher, dass die UI keine Abhängigkeit zur Bytecode-Bibliothek hat.
+

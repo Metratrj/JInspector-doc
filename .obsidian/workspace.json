@@ -11,14 +11,14 @@
             "id": "ee82486e2a5e2de2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "daylies/2026-01-28.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Architektur.md",
+                "bFile": "Architektur.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2026-01-28"
+              "icon": "diff",
+              "title": "Diff: Architektur  (Working Tree)"
             }
           },
           {
@@ -239,24 +239,26 @@
   },
   "active": "ee82486e2a5e2de2",
   "lastOpenFiles": [
-    "diagrams/Klassendiagramme.md",
-    "Welcome.md",
     "Java Projekt.md",
-    "Erste Schritte - Dokumentation.md",
+    "Ist-Analyse.md",
     "Architektur.md",
-    "mockups/Mockups.canvas",
+    "Erste Schritte - Dokumentation.md",
+    "Kanban.md",
+    "Opcodes.md",
+    "Soll-Konzept.md",
+    "Welcome.md",
+    "daylies/2026-02-02.md",
+    "daylies/2026-01-29.md",
+    "daylies/2026-01-28.md",
+    "mockups/call_tree_&_bytecode_inspector/screen.png",
     "mockups/class_hierarchy_explorer/screen.png",
+    "mockups/bytecode_analysis_dashboard/screen.png",
+    "diagrams/Klassendiagramme.md",
+    "mockups/Mockups.canvas",
     "diagrams/Use Cases & User Stories.md",
     "daylies/2026-01-26.md",
     "daylies/2026-01-27.md",
-    "daylies/2026-01-28.md",
-    "Soll-Konzept.md",
-    "Ist-Analyse.md",
-    "Opcodes.md",
-    "Kanban.md",
     "Usecase.md",
-    "mockups/call_tree_&_bytecode_inspector/screen.png",
-    "mockups/bytecode_analysis_dashboard/screen.png",
     "mockups/class_hierarchy_explorer/code.html",
     "mockups/call_tree_&_bytecode_inspector/code.html",
     "mockups/bytecode_analysis_dashboard/code.html",
