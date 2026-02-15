@@ -4,63 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "77fda7eb2dcc093d",
+        "id": "8af0e776bd815973",
         "type": "tabs",
         "children": [
           {
-            "id": "ee82486e2a5e2de2",
+            "id": "4f29b76aaa51244c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Projekt.md",
+                "file": "Merged.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java Projekt"
-            }
-          },
-          {
-            "id": "9a41a2366c7c4526",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daylies/2026-01-27.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-27"
-            }
-          },
-          {
-            "id": "376dd5b5f3cd6f7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architektur.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Architektur"
-            }
-          },
-          {
-            "id": "b6e9cd65b87b2ee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ist-Analyse.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ist-Analyse"
+              "title": "Merged"
             }
           }
         ]
@@ -237,25 +195,26 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ee82486e2a5e2de2",
+  "active": "047445ceb883992f",
   "lastOpenFiles": [
-    "daylies/2026-02-04.md",
-    "daylies/2026-01-26.md",
+    "Ist-Analyse.md",
+    "Architektur.md",
     "daylies/2026-01-27.md",
+    "daylies/2026-01-26.md",
     "daylies/2026-01-28.md",
     "daylies/2026-01-29.md",
+    "daylies/2026-02-04.md",
     "daylies/2026-02-02.md",
-    "Kanban.md",
-    "Java Projekt.md",
-    "Ist-Analyse.md",
-    "Erste Schritte - Dokumentation.md",
-    "Soll-Konzept.md",
-    "Architektur.md",
+    "diagrams/Use Cases & User Stories.md",
     "diagrams/Klassendiagramme.md",
+    "Merged.md",
+    "Soll-Konzept.md",
+    "Java Projekt.md",
     "Welcome.md",
+    "Kanban.md",
+    "Erste Schritte - Dokumentation.md",
     "mockups/Mockups.canvas",
     "mockups/class_hierarchy_explorer/screen.png",
-    "diagrams/Use Cases & User Stories.md",
     "Opcodes.md",
     "Usecase.md",
     "mockups/call_tree_&_bytecode_inspector/screen.png",

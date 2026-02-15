@@ -43,7 +43,7 @@ Das Ziel ist die Entwicklung von JByteInspector, einem Werkzeug, das die "Black 
 
 ## 3.5.1 Risikoanalyse
 
-| Risiko                                                          | Maßnahme                                                                              |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Komplexität der ASM-Bibliothek (Einarbeitungszeit)              | Fokus auf MVP und Nutzung der umfangreichen ASM-Dokumentation                         |
-| Änderung im Bytecode-Format durch neue Java-Versionen (JDK 25+) | Einsatz der aktuellsten stabilen ASM-Version und modularer Aufbau für spätere Updates |
+| Risiko                                                          | Maßnahme                                                                           |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Komplexität und Einarbeitungszeit der JavaFX-Bibliothek         | Fokus auf MVP                                                                      |
+| Änderung im Bytecode-Format durch neue Java-Versionen (JDK 25+) | Unterstützung nur der aktuellsten Version und modularer Aufbau für spätere Updates |
