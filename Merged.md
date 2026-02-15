@@ -557,4 +557,21 @@ Dateisystem (jbi-io)
 -> Parsing (jbi-parser)
 -> Domänemodell (jbi-model)
 -> Analyse-Engine (jbi-core)
+-> Ausgabe über CLI oder GUI
+
+Durch diese Struktur wird eine geringe Kopplung zwischen den Schichten erreicht.
+
+## 4.3.1 Implementierung des Parser
+Der Parser wurde gemöß der offiziellen JVM-Spezifikation umgesetzt. Dabei werden `.class`-Dateien binär eingelesen und strukturiert interpretiert.
+Folge Bestandteile wurden implementiert:
+	- Magic Header Validierung
+	- Versions Parsing
+	- Constant-Pool-Parsing
+	- Methoden- und Felddefinitionen
+	- Attributparsing  (insbesondere Code-Attribute)
+
+Die Verarbeitung erfolgt sequenziell anhand der Spezifikation.
+Fehlerhafte oder inkonsistente Dateien werden frühzeitig erkannt und führen zu einer kontrollierten Ausnahmebehandlung.
+
+Zur Sicherstellung der Korrektheit wurden die Ergebnisse mit der Ausgabe des JDK-Tools `javap` verglichen.
 
