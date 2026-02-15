@@ -519,7 +519,7 @@ Code_attribute *-- attribute_info
   
 @enduml
 ```
-
+![[ClassFileDiagram.png]]
 ## 4 Implementierungsphase
 ## 4.1.1 Architekturenscheidung
 
@@ -536,7 +536,7 @@ Code_attribute *-- attribute_info
 		 - UI (CLI / JavaFX)
 
 ## 4.2.1 Entwicklungsumgebung und technische Basis
-Die Entwicklung erfolgte unter der Verwendung von **Java 25** und **Gradle 9.2.0** als Build-Tool. Als Versionsverwaltung kam **Git** zum Einsatz, als Entwicklungsumgebug diente **Jetbrains IntelliJ 2025.3**, das Projekt wurde modular aufgebaut.
+Die Entwicklung erfolgte unter der Verwendung von **Java 25** und **Gradle 9.2.0** als Build-Tool. Als Versionsverwaltung kam **Git** zum Einsatz, als Entwicklungsumgebug diente **Jetbrains IntelliJ 2025.3**, für die Refaktorisierung des Programmcodes sowie zur Unterstützung in der Planung wurde das LLM Gemini 3 Pro und Flash verwendet, das Projekt wurde modular aufgebaut.
 
 Das Projekt wurde als Gradle-Multi-Module-Projekt umgesetzt. Ziel war eine klare fachliche und technschnische Trennung der Verwantwortlichkeit. Jedes Modul kapselt eine eigentständige Aufgabe und besitzt definierte Abhängigkeiten zu anderen Modulen.
 
