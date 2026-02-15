@@ -38,3 +38,4 @@ Ziel des Projekts ist die Entwicklung der Java-Anwendung **JByteInspector**. Die
 **Projektstatus & Aufgaben:** [[Kanban]]
 **Technische Dokumentation:** [[Architektur]]
 **Erste Schritte:** [[Erste Schritte - Dokumentation]]
+
